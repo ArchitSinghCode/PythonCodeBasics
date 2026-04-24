@@ -1,4 +1,6 @@
 #Using Lists
+from inspect import AGEN_CLOSED
+
 employees = []
 
 file_path = input("Enter the file path: ")
@@ -13,5 +15,13 @@ with open(file_path, "w") as file:
     for employee in employees:
         file.write("\n"+employee)
     print(f"The JSON file {file_path} has been updated.")
+
+
+
+
+
+
+
+
 
 

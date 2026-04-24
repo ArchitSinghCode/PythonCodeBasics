@@ -25,7 +25,7 @@ while True:
     except ValueError:
         print("All values must be entered in number.")
     except ZeroDivisionError:
-        print("Division by zero is not possible!")
+        print("Division by zero is not mathematically possible!")
     continue_decision = input("Would you like to continue?(Y/N): ")
     while continue_decision.lower() not in ["y","n"]:
         print("Please enter a valid input.")
