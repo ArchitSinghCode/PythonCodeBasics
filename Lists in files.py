@@ -1,5 +1,5 @@
 #Using Lists
-from inspect import AGEN_CLOSED
+
 
 employees = []
 
@@ -14,7 +14,7 @@ for counter in range(1,number_employees+1):
 with open(file_path, "w") as file:
     for employee in employees:
         file.write("\n"+employee)
-    print(f"The JSON file {file_path} has been updated.")
+    print(f"The  file {file_path} has been updated.")
 
 
 
